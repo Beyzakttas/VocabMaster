@@ -1,0 +1,3602 @@
+[
+  {
+    "w": "affection",
+    "t": "sevgi, şefkat",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "ability",
+    "t": "yetenek, kabiliyet",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "access",
+    "t": "erişim, ulaşım",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "account",
+    "t": "hesap, anlatım",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "achievement",
+    "t": "başarı",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "addition",
+    "t": "ekleme, ilave",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "admission",
+    "t": "kabul, giriş",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "adult",
+    "t": "yetişkin",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "advance",
+    "t": "ilerleme, gelişme",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "advantage",
+    "t": "avantaj, yarar",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "advertising",
+    "t": "reklamcılık",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "advice",
+    "t": "öğüt, tavsiye",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "affair",
+    "t": "iş, olay, mesele",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "age",
+    "t": "yaş, çağ, devir",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "agency",
+    "t": "acenta, kurum",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "agent",
+    "t": "temsilci, faktör, ajan",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "aim",
+    "t": "amaç, hedef",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "allowance",
+    "t": "harçlık, izin, pay",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "ambition",
+    "t": "hırs, tutku, hedef",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "amount",
+    "t": "miktar, tutar",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "animal",
+    "t": "hayvan",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "apology",
+    "t": "özür",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "appearance",
+    "t": "görünüş, ortaya çıkma",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "application",
+    "t": "uygulama, başvuru",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "appointment",
+    "t": "atama, randevu",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "approach",
+    "t": "yaklaşım",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "approval",
+    "t": "onay, kabul",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "area",
+    "t": "alan, bölge",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "arrangement",
+    "t": "düzenleme, ayarlama",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "arrival",
+    "t": "varış, geliş",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "art",
+    "t": "sanat",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "article",
+    "t": "makale, madde",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "aspect",
+    "t": "yön, özellik, taraf",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "assessment",
+    "t": "değerlendirme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "assistance",
+    "t": "destek, yardım",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "association",
+    "t": "ilişki, kurum, bağlantı",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "assumption",
+    "t": "varsayım, faraziye",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "attempt",
+    "t": "girişim, çaba",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "attention",
+    "t": "dikkat, ilgi",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "audience",
+    "t": "izleyici, dinleyici",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "awareness",
+    "t": "farkındalık, bilinç",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "balance",
+    "t": "denge",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "behaviour",
+    "t": "davranış",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "belief",
+    "t": "inanç, kanaat",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "body",
+    "t": "beden, gövde",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "budget",
+    "t": "bütçe",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "business",
+    "t": "iş, işletme, ticaret",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "candidate",
+    "t": "aday",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "care",
+    "t": "ilgi, dikkat, bakım",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "case",
+    "t": "durum, vaka, dava",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "cause",
+    "t": "sebep, neden",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "cell",
+    "t": "hücre",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "century",
+    "t": "yüzyıl, asır",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "challenge",
+    "t": "zorluk, engel",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "change",
+    "t": "değişiklik, değişim",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "characteristic",
+    "t": "özellik, nitelik",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "circumstance",
+    "t": "durum, koşul",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "citizen",
+    "t": "yurttaş, vatandaş",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "city",
+    "t": "şehir, kent",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "claim",
+    "t": "iddia, sav",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "clue",
+    "t": "ipucu",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "colleague",
+    "t": "meslektaş, iş arkadaşı",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "collection",
+    "t": "koleksiyon, toplama",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "combination",
+    "t": "bileşim, birleşim",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "commission",
+    "t": "komisyon, kurul",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "commitment",
+    "t": "bağlılık, sorumluluk",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "comparison",
+    "t": "karşılaştırma, kıyas",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "competition",
+    "t": "rekabet, yarışma",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "complaint",
+    "t": "şikayet",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "component",
+    "t": "bileşen, parça",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "concentration",
+    "t": "yoğunlaşma, konsantrasyon",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "concept",
+    "t": "kavram, fikir",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "concern",
+    "t": "endişe, kaygı, ilgi",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "conclusion",
+    "t": "sonuç, netice",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "condition",
+    "t": "durum, koşul, hastalık",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "confidence",
+    "t": "güven, inanç",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "conflict",
+    "t": "çatışma, anlaşmazlık",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "consequence",
+    "t": "sonuç, netice",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "consideration",
+    "t": "düşünme, göz önünde tutma",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "construction",
+    "t": "yapım, inşaat",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "consumption",
+    "t": "tüketim",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "contest",
+    "t": "yarışma, mücadele",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "contribution",
+    "t": "katkı, yardım",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "conversation",
+    "t": "sohbet, iletişim",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "conviction",
+    "t": "inanç, görüş, mahkumiyet",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "cooperation",
+    "t": "işbirliği, dayanışma",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "cost",
+    "t": "maliyet, ücret",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "counter",
+    "t": "tezgah, sayaç",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "country",
+    "t": "ülke, memleket",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "course",
+    "t": "kurs, yol, rota, süreç",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "creature",
+    "t": "yaratık, canlı",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "crew",
+    "t": "mürettebat, ekip",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "custom",
+    "t": "adet, gelenek",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "danger",
+    "t": "tehlike, risk",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "debate",
+    "t": "tartışma, münazara",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "decision",
+    "t": "karar",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "definition",
+    "t": "tanım, açıklama",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "degree",
+    "t": "derece, aşama, lisans",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "illusion",
+    "t": "yanılsama, göz aldanması",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "demonstration",
+    "t": "gösterme, gösteri",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "department",
+    "t": "bölüm, daire",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "departure",
+    "t": "kalkış, ayrılma",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "depression",
+    "t": "çöküntü, depresyon",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "description",
+    "t": "tanımlama, betimleme",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "destruction",
+    "t": "yıkım, tahribat",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "determination",
+    "t": "azim, kararlılık",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "development",
+    "t": "gelişim, ilerleme",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "device",
+    "t": "cihaz, alet",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "difference",
+    "t": "farklılık, ayrım",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "disaster",
+    "t": "felaket, afet",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "discovery",
+    "t": "keşif, bulgu",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "discussion",
+    "t": "tartışma, görüşme",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "disease",
+    "t": "hastalık, rahatsızlık",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "display",
+    "t": "sergi, gösterge",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "distinction",
+    "t": "ayırım, fark, seçkinlik",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "distribution",
+    "t": "dağıtım, dağılım",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "duty",
+    "t": "görev, sorumluluk",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "earth",
+    "t": "dünya, toprak, yer",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "edition",
+    "t": "baskı, basım",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "education",
+    "t": "eğitim, öğretim",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "effect",
+    "t": "etki, tesir",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "efficiency",
+    "t": "verimlilik, etkinlik",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "effort",
+    "t": "çaba, gayret",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "emergency",
+    "t": "acil durum",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "emotion",
+    "t": "duygu, his",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "emphasis",
+    "t": "vurgu, önem",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "empire",
+    "t": "imparatorluk",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "employment",
+    "t": "istihdam, iş",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "enthusiasm",
+    "t": "heves, coşku",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "entrance",
+    "t": "giriş",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "environment",
+    "t": "çevre, ortam",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "escape",
+    "t": "kaçış",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "establishment",
+    "t": "kuruluş, tesis",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "event",
+    "t": "olay, etkinlik",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "evidence",
+    "t": "kanıt, delil",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "examination",
+    "t": "inceleme, muayene, sınav",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "example",
+    "t": "örnek, misal",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "exception",
+    "t": "istisna",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "existence",
+    "t": "varoluş, varlık",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "expansion",
+    "t": "genişleme, yayılma",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "expectation",
+    "t": "beklenti, umut",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "expenditure",
+    "t": "masraf, gider",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "expense",
+    "t": "gider, harcama",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "experience",
+    "t": "deneyim, tecrübe",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "experiment",
+    "t": "deney",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "explanation",
+    "t": "açıklama",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "explosion",
+    "t": "patlama",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "expression",
+    "t": "ifade, deyim",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "extension",
+    "t": "genişletme, uzatma",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "extent",
+    "t": "boyut, derece, kapsam",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "fact",
+    "t": "gerçek, olgu",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "failure",
+    "t": "başarısızlık",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "family",
+    "t": "aile, soy",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "feature",
+    "t": "özellik, nitelik",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "fight",
+    "t": "kavga, mücadele",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "force",
+    "t": "güç, kuvvet, zorlama",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "function",
+    "t": "işlev, görev",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "future",
+    "t": "gelecek, istikbal",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "gap",
+    "t": "boşluk, fark, açıklık",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "generation",
+    "t": "nesil, kuşak, üretim",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "goal",
+    "t": "amaç, hedef",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "government",
+    "t": "hükümet, yönetim",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "growth",
+    "t": "büyüme, gelişme",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "guest",
+    "t": "misafir, konuk",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "guide",
+    "t": "rehber, kılavuz",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "harm",
+    "t": "zarar, ziyan",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "heat",
+    "t": "ısı, sıcaklık",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "help",
+    "t": "yardım, çare",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "history",
+    "t": "tarih, geçmiş",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "human",
+    "t": "insan",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "idea",
+    "t": "fikir, öneri",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "identity",
+    "t": "kimlik",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "illness",
+    "t": "hastalık",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "impact",
+    "t": "etki, darbe",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "implication",
+    "t": "çıkarım, ima, olası sonuç",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "importance",
+    "t": "önem, ehemmiyet",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "impression",
+    "t": "izlenim, etki",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "improvement",
+    "t": "gelişme, iyileşme",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "incident",
+    "t": "olay, vaka",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "increase",
+    "t": "artış, yükselme",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "indication",
+    "t": "belirti, işaret, gösterge",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "individual",
+    "t": "birey, fert",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "industry",
+    "t": "sanayi, endüstri",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "infant",
+    "t": "bebek, çocuk",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "information",
+    "t": "bilgi, danışma",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "initiative",
+    "t": "girişim, inisiyatif",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "innovation",
+    "t": "yenilik, buluş",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "instance",
+    "t": "örnek, vaka",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "insurance",
+    "t": "sigorta",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "intention",
+    "t": "niyet, kasıt, amaç",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "interaction",
+    "t": "etkileşim",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "interest",
+    "t": "ilgi, çıkar, faiz",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "interpretation",
+    "t": "yorum, çeviri",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "interval",
+    "t": "ara, mola, aralık",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "intervention",
+    "t": "müdahale, araya girme",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "investigation",
+    "t": "soruşturma, araştırma",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "investment",
+    "t": "yatırım",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "involvement",
+    "t": "karışma, dahil olma",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "issue",
+    "t": "konu, mesele, sorun",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "job",
+    "t": "iş, meslek, görev",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "journey",
+    "t": "yolculuk, seyahat",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "judgment",
+    "t": "yargı, hüküm, kanı",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "knowledge",
+    "t": "bilgi, ilim",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "language",
+    "t": "dil, lisan",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "law",
+    "t": "yasa, kanun, hukuk",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "layer",
+    "t": "katman, tabaka",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "level",
+    "t": "seviye, düzey",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "life",
+    "t": "yaşam, hayat",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "lift",
+    "t": "asansör, kalkma",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "link",
+    "t": "bağlantı, ilişki",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "maintenance",
+    "t": "bakım, koruma, sürdürme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "manner",
+    "t": "tarz, biçim, tutum",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "match",
+    "t": "maç, kibrit, eşleşme",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "means",
+    "t": "araç, yöntem, olanak",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "measure",
+    "t": "önlem, ölçü",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "measurement",
+    "t": "ölçüm",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "method",
+    "t": "yöntem, metot",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "minute",
+    "t": "dakika, an",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "mystery",
+    "t": "gizem, sır",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "nation",
+    "t": "ulus, millet",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "need",
+    "t": "ihtiyaç, gereksinim",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "negotiation",
+    "t": "müzakere, görüşme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "neighbourhood",
+    "t": "mahalle, semt, çevre",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "notice",
+    "t": "fark etme, duyuru, uyarı",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "number",
+    "t": "numara, sayı",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "objection",
+    "t": "itiraz, karşı çıkma",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "objective",
+    "t": "amaç, hedef",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "obligation",
+    "t": "zorunluluk, yükümlülük",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "observation",
+    "t": "gözlem",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "occasion",
+    "t": "fırsat, vesile, özel gün",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "opinion",
+    "t": "fikir, görüş",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "opportunity",
+    "t": "fırsat, olanak",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "opposition",
+    "t": "muhalefet, karşı koyma",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "option",
+    "t": "seçenek, tercih",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "order",
+    "t": "sıra, düzen, sipariş, emir",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "origin",
+    "t": "köken, başlangıç",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "outcome",
+    "t": "sonuç, netice",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "output",
+    "t": "çıktı, ürün",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "disadvantage",
+    "t": "dezavantaj, sakınca",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "part",
+    "t": "kısım, parça, bölüm",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "pattern",
+    "t": "örnek, kalıp, desen, tarz",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "payment",
+    "t": "ödeme, ücret",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "peace",
+    "t": "barış, huzur",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "people",
+    "t": "insanlar, halk",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "performance",
+    "t": "performans, sergileme",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "period",
+    "t": "dönem, süre, çağ",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "personality",
+    "t": "kişilik, karakter",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "phase",
+    "t": "aşama, evre",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "pleasure",
+    "t": "keyif, zevk, memnuniyet",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "point",
+    "t": "nokta, husus, puan",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "policy",
+    "t": "politika, ilke, plan",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "population",
+    "t": "nüfus",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "possession",
+    "t": "sahiplik, mülk",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "preference",
+    "t": "tercih, öncelik",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "present",
+    "t": "hediye, şu an, şimdiki zaman",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "price",
+    "t": "fiyat, bedel",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "problem",
+    "t": "sorun, mesele",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "process",
+    "t": "süreç, işlem",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "product",
+    "t": "ürün, mahsul",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "production",
+    "t": "üretim",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "progress",
+    "t": "ilerleme, gelişme",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "promise",
+    "t": "söz, vaat",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "promotion",
+    "t": "terfi, tanıtım, ilerleme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "property",
+    "t": "özellik, mülk, mal",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "proportion",
+    "t": "oran, nispet",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "proposal",
+    "t": "teklif, öneri",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "protection",
+    "t": "koruma, muhafaza",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "provision",
+    "t": "temin, hüküm, koşul",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "public",
+    "t": "kamu, halk",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "punishment",
+    "t": "ceza, cezalandırma",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "purchase",
+    "t": "satın alma",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "purpose",
+    "t": "amaç, gaye",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "quality",
+    "t": "kalite, nitelik",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "question",
+    "t": "soru, sorun",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "race",
+    "t": "yarış, ırk",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "rate",
+    "t": "oran, kur, hız",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "reason",
+    "t": "sebep, neden, mantık",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "recognition",
+    "t": "tanınma, kabul edilme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "recommendation",
+    "t": "tavsiye, öneri",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "record",
+    "t": "kayıt, rekor",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "recovery",
+    "t": "iyileşme, düzelme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "reduction",
+    "t": "azalma, indirim",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "reference",
+    "t": "atıf, başvuru, referans",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "region",
+    "t": "bölge, yöre",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "regulation",
+    "t": "düzenleme, kural, mevzuat",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "relative",
+    "t": "akraba",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "relief",
+    "t": "rahatlama, ferahlama",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "remain",
+    "t": "kalıntı, bakiye",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "replacement",
+    "t": "yerine geçme, yenileme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "representation",
+    "t": "temsil, gösterim",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "reputation",
+    "t": "ün, şöhret, saygınlık",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "request",
+    "t": "rica, talep, istek",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "requirement",
+    "t": "gereksinim, şart, koşul",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "research",
+    "t": "araştırma",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "resignation",
+    "t": "istifa, kabullenme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "resistance",
+    "t": "direnç, karşı koyma",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "resolution",
+    "t": "karar, çözünürlük",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "resource",
+    "t": "kaynak",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "response",
+    "t": "yanıt, karşılık, tepki",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "responsibility",
+    "t": "sorumluluk",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "restriction",
+    "t": "kısıtlama, sınırlama",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "result",
+    "t": "sonuç, netice",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "retirement",
+    "t": "emeklilik",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "reward",
+    "t": "ödül, karşılık",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "right",
+    "t": "hak, doğru, sağ taraf",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "risk",
+    "t": "risk, tehlike",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "rule",
+    "t": "kural, yönetim",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "sale",
+    "t": "satış, indirim",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "sample",
+    "t": "örnek, numune",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "school",
+    "t": "okul, ekol",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "science",
+    "t": "bilim, ilim",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "scientist",
+    "t": "bilim insanı",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "search",
+    "t": "arama, araştırma",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "section",
+    "t": "bölüm, kesit",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "selection",
+    "t": "seçim, seçki",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "sense",
+    "t": "duyu, anlam, mantık",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "service",
+    "t": "hizmet, servis",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "settlement",
+    "t": "yerleşim, uzlaşma",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "share",
+    "t": "hisse, pay",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "signal",
+    "t": "sinyal, işaret",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "significance",
+    "t": "önem, değer, anlam",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "situation",
+    "t": "durum, hal",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "size",
+    "t": "büyüklük, boyut",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "society",
+    "t": "toplum, cemiyet",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "solution",
+    "t": "çözüm, çözelti",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "space",
+    "t": "alan, uzay, boşluk",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "species",
+    "t": "tür, cins",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "state",
+    "t": "durum, devlet",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "step",
+    "t": "adım, basamak",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "stone",
+    "t": "taş",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "store",
+    "t": "mağaza, depo",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "strike",
+    "t": "grev, darbe, saldırı",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "structure",
+    "t": "yapı, bina",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "struggle",
+    "t": "çaba, mücadele",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "subject",
+    "t": "konu, ders, özne",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "substance",
+    "t": "madde, cisim",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "success",
+    "t": "başarı",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "suggestion",
+    "t": "öneri, tavsiye",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "surgery",
+    "t": "ameliyat, cerrahi",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "suspicion",
+    "t": "şüphe, kuşku",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "system",
+    "t": "sistem, düzen",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "task",
+    "t": "görev, iş",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "thought",
+    "t": "düşünce, fikir",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "time",
+    "t": "zaman, vakit",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "title",
+    "t": "başlık, unvan",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "topic",
+    "t": "konu, başlık",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "total",
+    "t": "toplam, tutar",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "trade",
+    "t": "ticaret, iş",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "tradition",
+    "t": "gelenek, görenek",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "treatment",
+    "t": "tedavi, muamele",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "treaty",
+    "t": "antlaşma, pakt",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "trial",
+    "t": "duruşma, deneme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "troop",
+    "t": "askeri birlik, tabur",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "unemployment",
+    "t": "işsizlik",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "union",
+    "t": "birlik, sendika",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "variety",
+    "t": "çeşitlilik, tür",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "victim",
+    "t": "kurban, mağdur",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "view",
+    "t": "görüş, manzara",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "wage",
+    "t": "ücret, maaş",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "war",
+    "t": "savaş",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "way",
+    "t": "yol, yöntem",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "wealth",
+    "t": "zenginlik, servet",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "welfare",
+    "t": "refah, yardım",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "work",
+    "t": "iş, çalışma, eser",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "worker",
+    "t": "işçi, çalışan",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "writer",
+    "t": "yazar",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "year",
+    "t": "yıl, sene",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "indifference",
+    "t": "ilgisizlik, kayıtsızlık",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "prosperity",
+    "t": "refah, bolluk",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "excavation",
+    "t": "kazı",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "civilization",
+    "t": "uygarlık, medeniyet",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "progression",
+    "t": "ilerleme, gelişim",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "advancement",
+    "t": "ilerleme, terfi",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "profit",
+    "t": "kar, kazanç",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "recession",
+    "t": "durgunluk, gerileme",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "dedication",
+    "t": "adama, özveri",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "diversity",
+    "t": "çeşitlilik, farklılık",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "fertility",
+    "t": "doğurganlık, verimlilik",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "participation",
+    "t": "katılım",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "detriment",
+    "t": "zarar, hasar",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "shortage",
+    "t": "kıtlık, eksiklik",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "drought",
+    "t": "kuraklık",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "acquisition",
+    "t": "edinim, kazanım",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "certainty",
+    "t": "kesinlik, belirlilik",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "corruption",
+    "t": "yolsuzluk, bozulma",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "asset",
+    "t": "varlık, değerli mülk",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "commodity",
+    "t": "ticari mal, meta",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "conservation",
+    "t": "koruma, muhafaza",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "invention",
+    "t": "icat, buluş",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "dependence",
+    "t": "bağımlılık",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "eruption",
+    "t": "patlama, püskürme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "exploitation",
+    "t": "sömürü, faydalanma",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "susceptibility",
+    "t": "hassasiyet, yatkınlık",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "abundance",
+    "t": "bolluk, bereket",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "alteration",
+    "t": "değişiklik, başkalaşım",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "discrimination",
+    "t": "ayrımcılık",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "counterpart",
+    "t": "emsal, muadil, benzer",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "declaration",
+    "t": "ilan, bildiri, beyan",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "deception",
+    "t": "aldatma, kandırma",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "disorder",
+    "t": "bozukluk, kargaşa",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "prediction",
+    "t": "tahmin, öngörü",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "exposure",
+    "t": "maruz kalma",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "incentive",
+    "t": "teşvik, özendirici",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "ingredient",
+    "t": "içerik, malzeme",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "outbreak",
+    "t": "salgın, patlak verme",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "quotation",
+    "t": "alıntı, fiyat teklifi",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "surplus",
+    "t": "fazlalık, artık",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "deficit",
+    "t": "bütçe açığı, eksiklik",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "deficiency",
+    "t": "yetersizlik, eksiklik",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "utilization",
+    "t": "faydalanma, kullanım",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "admiration",
+    "t": "hayranlık, takdir",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "extinction",
+    "t": "nesli tükenme, yok olma",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "duration",
+    "t": "süre, devam süresi",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "landslide",
+    "t": "heyelan, toprak kayması",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "defect",
+    "t": "kusur, bozukluk, defo",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "discrepancy",
+    "t": "çelişki, tutarsızlık",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "separation",
+    "t": "ayrılma, ayırma",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "scarcity",
+    "t": "kıtlık, yetersizlik",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "starvation",
+    "t": "açlık, açlıktan ölme",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "correlation",
+    "t": "korelasyon, karşılıklı ilişki",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "productivity",
+    "t": "üretkenlik, verim",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "redundancy",
+    "t": "fazlalık, işten çıkarma",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "vacancy",
+    "t": "açık kadro, boşluk",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "withdrawal",
+    "t": "geri çekilme, para çekme",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "linkage",
+    "t": "bağlantı, ilişki",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "rejection",
+    "t": "reddetme, ret",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "detection",
+    "t": "keşfetme, belirleme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "dismissal",
+    "t": "işten atma, reddetme",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "children",
+    "t": "çocuklar",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "advent",
+    "t": "geliş, ortaya çıkış",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "destination",
+    "t": "varış yeri, hedef",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "sensation",
+    "t": "duyum, his, heyecan",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "conversion",
+    "t": "dönüşüm, çevrilme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "manifestation",
+    "t": "belirti, gösterge",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "episode",
+    "t": "bölüm, olay, atak",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "rainfall",
+    "t": "yağış miktarı",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "ancestor",
+    "t": "ata, soy",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "occurrence",
+    "t": "olay, meydana gelme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "recreation",
+    "t": "dinlenme, eğlence",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "legitimacy",
+    "t": "meşruiyet, yasallık",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "reservation",
+    "t": "rezervasyon, çekince",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "precaution",
+    "t": "önlem, tedbir",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "reassessment",
+    "t": "yeniden değerlendirme",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "compensation",
+    "t": "tazminat, telafi",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "survivor",
+    "t": "hayatta kalan",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "conformity",
+    "t": "uyum, uyumluluk",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "obsession",
+    "t": "saplantı, takıntı",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "collaboration",
+    "t": "işbirliği",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "abolition",
+    "t": "fesih, yürürlükten kaldırma",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "scholarship",
+    "t": "burs, bilimsel birikim",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "essence",
+    "t": "esas, öz, nitelik",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "integration",
+    "t": "bütünleşme, entegrasyon",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "prevalence",
+    "t": "yaygınlık",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "settler",
+    "t": "yerleşimci, göçmen",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "inhabitant",
+    "t": "yerli, ikamet eden",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "functionality",
+    "t": "işlevsellik",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "disturbance",
+    "t": "rahatsızlık, huzursuzluk",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "framework",
+    "t": "çerçeve, yapı",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "accumulation",
+    "t": "birikim, yığılma",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "conductivity",
+    "t": "iletkenlik",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "reversal",
+    "t": "tersine dönme, iptal",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "symptom",
+    "t": "belirti, semptom",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "influence",
+    "t": "etki, nüfuz",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "belongings",
+    "t": "kişisel eşyalar",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "diagnosis",
+    "t": "teşhis, tanı",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "manuscript",
+    "t": "el yazması, taslak",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "removal",
+    "t": "ortadan kaldırma, sökme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "descendant",
+    "t": "torun, soyundan gelen",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "indicator",
+    "t": "gösterge, işaret",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "intake",
+    "t": "alınan miktar, giriş",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "supplement",
+    "t": "ek, takviye, ilave",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "acceptance",
+    "t": "kabul, onaylama",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "habitat",
+    "t": "yaşam alanı, doğal ortam",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "disruption",
+    "t": "aksama, kesinti, bozulma",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "encouragement",
+    "t": "teşvik, cesaretlendirme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "pollutant",
+    "t": "kirletici madde",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "preservation",
+    "t": "koruma, muhafaza",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "nutrient",
+    "t": "besin maddesi",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "predator",
+    "t": "yırtıcı hayvan",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "province",
+    "t": "vilayet, il, uzmanlık alanı",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "adoption",
+    "t": "benimseme, evlat edinme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "complexity",
+    "t": "karmaşıklık",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "falsehood",
+    "t": "yalan, sahtelik",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "harvest",
+    "t": "hasat, ürün",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "creativity",
+    "t": "yaratıcılık",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "enlargement",
+    "t": "genişletme, büyüme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "emergence",
+    "t": "ortaya çıkış, belirme",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "fluctuation",
+    "t": "dalgalanma, iniş çıkış",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "remedy",
+    "t": "çare, deva, ilaç",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "restoration",
+    "t": "onarma, yenileme, restorasyon",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "solidarity",
+    "t": "dayanışma, birlik",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "sustainability",
+    "t": "sürdürülebilirlik",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "clarity",
+    "t": "netlik, berraklık",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "credibility",
+    "t": "güvenilirlik, inandırıcılık",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "emission",
+    "t": "salınım, yayma",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "endurance",
+    "t": "dayanıklılık, tahammül",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "absorption",
+    "t": "emilim, içine çekme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "immunity",
+    "t": "bağışıklık, muafiyet",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "complication",
+    "t": "karmaşıklık, komplikasyon",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "consultation",
+    "t": "danışma, istişare",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "demand",
+    "t": "talep, istek",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "composition",
+    "t": "bileşim, kompozisyon",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "supplier",
+    "t": "tedarikçi",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "reliance",
+    "t": "güven, bağımlılık",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "appreciation",
+    "t": "takdir, teşekkür, değer artışı",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "arousal",
+    "t": "uyarılma, uyanış",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "predictor",
+    "t": "öngörücü, belirleyici faktör",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "deceit",
+    "t": "hilekarlık, aldatma",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "destiny",
+    "t": "kader, yazgı",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "expectancy",
+    "t": "beklenti, umut",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "imitation",
+    "t": "taklit, sahte",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "similarity",
+    "t": "benzerlik",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "relevance",
+    "t": "ilişki, uygunluk, alaka",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "frequency",
+    "t": "sıklık, frekans",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "verse",
+    "t": "mısra, ayet, şiir",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "attentiveness",
+    "t": "dikkatlilik, özen",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "completion",
+    "t": "tamamlama, bitiş",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "contradiction",
+    "t": "çelişki, tezat",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "attachment",
+    "t": "bağlılık, ek dosya",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "disappointment",
+    "t": "hayal kırıklığı",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "familiarity",
+    "t": "aşinalık, tanışıklık",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "disobedience",
+    "t": "itaatsizlik",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "rotation",
+    "t": "dönüş, devir, rotasyon",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "support",
+    "t": "destek, dayanak",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "limit",
+    "t": "sınır, limit",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "allocation",
+    "t": "tahsis, ödenek ayırma",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "bargain",
+    "t": "pazarlık, kelepir",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "cavity",
+    "t": "oyuk, kovuk, çürük",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "cohesion",
+    "t": "uyum, birbirine bağlılık",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "concession",
+    "t": "ödün, taviz, imtiyaz",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "conscience",
+    "t": "vicdan",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "constraint",
+    "t": "kısıtlama, sınırlama",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "cruise",
+    "t": "gemi seyahati",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "slavery",
+    "t": "kölelik, esaret",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "inadequacy",
+    "t": "yetersizlik",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "recurrence",
+    "t": "nüksetme, tekrarlanma",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "refusal",
+    "t": "ret, kabul etmeme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "allusion",
+    "t": "ima, üstü kapalı değinme",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "survey",
+    "t": "anket, inceleme",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "amplification",
+    "t": "yükseltme, büyütme",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "apprehension",
+    "t": "endişe, kaygı, kavrama",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "avoidance",
+    "t": "kaçınma, sakınma",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "compression",
+    "t": "sıkıştırma, basınç",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "face",
+    "t": "yüz, çehre",
+    "l": "A1",
+    "pos": "İsim"
+  },
+  {
+    "w": "wonder",
+    "t": "şaşkınlık, mucize, merak",
+    "l": "A2",
+    "pos": "İsim"
+  },
+  {
+    "w": "reinforcement",
+    "t": "güçlendirme, pekiştirme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "permanence",
+    "t": "kalıcılık, süreklilik",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "excess",
+    "t": "aşırılık, fazlalık",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "fury",
+    "t": "öfke, hiddet",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "coincidence",
+    "t": "tesadüf, rastlantı",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "liability",
+    "t": "sorumluluk, yükümlülük",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "make-up",
+    "t": "yapı, makyaj",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "impairment",
+    "t": "bozulma, sakatlık",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "instinct",
+    "t": "içgüdü",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "collapse",
+    "t": "çöküş, çökme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "ignorance",
+    "t": "cehalet, bilgisizlik",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "adaption",
+    "t": "uyarlama, intibak",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "suitability",
+    "t": "uygunluk, elverişlilik",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "neglect",
+    "t": "ihmal, savsaklama",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "negligence",
+    "t": "ihmalkarlık, savsaklama",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "repetition",
+    "t": "tekrar, yineleme",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "misuse",
+    "t": "yanlış kullanım, suiistimal",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "consistence",
+    "t": "tutarlılık, kararlılık",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "defense",
+    "t": "savunma, müdafaa",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "estimation",
+    "t": "tahmin, kestirim",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "denial",
+    "t": "inkar, ret",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "jeopardy",
+    "t": "tehlike, risk",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "hesitation",
+    "t": "tereddüt, duraksama",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "avidity",
+    "t": "aşırı istek, hırs",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "confiscation",
+    "t": "el koyma, müsadere",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "exhaustion",
+    "t": "tükenmişlik, aşırı yorgunluk",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "enrollment",
+    "t": "kayıt, kaydolma",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "compliment",
+    "t": "övgü, iltifat",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "extremity",
+    "t": "uç nokta, son derece zorluk",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "mistrust",
+    "t": "güvensizlik, şüphe",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "distraction",
+    "t": "dikkat dağıtıcı şey",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "fulfillment",
+    "t": "yerine getirme, tatmin",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "compliance",
+    "t": "uyum, riayet",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "submission",
+    "t": "sunma, teslimiyet, boyun eğme",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "contingency",
+    "t": "ihtimal, beklenmedik durum",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "confinement",
+    "t": "hapsolma, sınırlandırma",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "consultancy",
+    "t": "danışmanlık",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "discretion",
+    "t": "takdir yetkisi, sağduyu",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "disposition",
+    "t": "eğilim, karakter, mizaç",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "drill",
+    "t": "matkap, tatbikat",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "inclination",
+    "t": "eğilim, meyil",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "intersection",
+    "t": "kavşak, kesişim",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "inversion",
+    "t": "tersine dönme, devrikleşme",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "malady",
+    "t": "hastalık, dert, illet",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "refinement",
+    "t": "arıtma, saflaştırma, incelik",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "elimination",
+    "t": "eleme, yok etme, giderme",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "engagement",
+    "t": "bağlılık, nişan, çatışma",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "common sense",
+    "t": "sağduyu, aklıselim",
+    "l": "B2",
+    "pos": "İsim"
+  },
+  {
+    "w": "deserter",
+    "t": "asker kaçağı, firari",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "detention",
+    "t": "gözaltı, alıkoyma",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "diversion",
+    "t": "saptırma, oyalanma",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "customs",
+    "t": "gümrük",
+    "l": "B1",
+    "pos": "İsim"
+  },
+  {
+    "w": "pretension",
+    "t": "gösteriş, iddia, caka",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "marginality",
+    "t": "marjinallik, kenarda kalmışlık",
+    "l": "C1",
+    "pos": "İsim"
+  },
+  {
+    "w": "agreement",
+    "t": "anlaşma, uzlaşma",
+    "l": "A2",
+    "pos": "İsim"
+  }
+]

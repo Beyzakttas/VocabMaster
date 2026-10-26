@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YDS & YDT Kelime Master | Seviyelere Göre Kart & Test Platformu</title>
+  <meta name="description" content="A1'den C1/C2'ye kadar 1.240+ YDS ve YDT kelimesini akıllı kartlar ve 5 şıklı ÖSYM sınav simülatörüyle öğrenin.">
+  
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- CSS Styles -->
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/components.css">
+</head>
+<body>
+  <!-- Header / Nav -->
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand">
+        <div class="brand-icon">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+        <div class="brand-text">
+          <h1 class="brand-title">YDS VocabMaster</h1>
+          <span class="brand-subtitle">Akademik Kelime & Sınav Simülatörü</span>
+        </div>
+      </div>
+
+      <!-- Quick Global Stats -->
+      <div class="header-stats" id="headerStats">
+        <div class="stat-pill">
+          <i class="fa-solid fa-book-bookmark text-indigo"></i>
+          <span>Toplam: <strong id="statTotalWords">1243</strong></span>
+        </div>
+        <div class="stat-pill">
+          <i class="fa-solid fa-circle-check text-emerald"></i>
+          <span>Öğrenildi: <strong id="statLearnedCount">0</strong></span>
+        </div>
+        <div class="stat-pill">
+          <i class="fa-solid fa-trophy text-amber"></i>
+          <span>Test Skoru: <strong id="statQuizAccuracy">%0</strong></span>
+        </div>
+      </div>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="action-btn" title="Karanlık / Aydınlık Tema" aria-label="Tema Değiştir">
+          <i class="fa-solid fa-moon" id="themeIcon"></i>
+        </button>
+        <button id="resetProgressBtn" class="action-btn text-muted" title="İlerlemeyi Sıfırla" aria-label="İlerlemeyi Sıfırla">
+          <i class="fa-solid fa-rotate-left"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main App Layout -->
+  <main class="app-main">
+    
+    <!-- Executive Workspace Control Bar -->
+    <section class="workspace-bar">
+      <div class="workspace-bar-inner">
+        
+        <!-- Left: CEFR Language Level Selector (SADECE DİL SEVİYELERİ) & Quick Scope -->
+        <div class="workspace-left">
+          
+          <!-- Level Selector Dropdown: ONLY CEFR LANGUAGE LEVELS -->
+          <div class="level-select-wrapper" id="levelDropdownWrapper">
+            <button class="level-select-trigger" id="levelDropdownBtn" type="button" aria-haspopup="listbox" aria-expanded="false" title="Dil Seviyesini Değiştir">
+              <span class="lvl-dot" id="dropdownLevelDot"></span>
+              <span class="lvl-code" id="dropdownLevelBadge">B2</span>
+              <span class="lvl-name" id="dropdownLevelTitle">YDS Ana Havuz</span>
+              <span class="lvl-count" id="dropdownLevelCount">558</span>
+              <i class="fa-solid fa-chevron-down lvl-chevron" id="dropdownChevron"></i>
+            </button>
+
+            <!-- Popover Menu: SADECE DİL SEVİYELERİ (A1 - C2) -->
+            <div class="level-popover-menu" id="levelDropdownMenu" role="listbox">
+              <div class="popover-header">
+                <span>CEFR DİL SEVİYESİ</span>
+              </div>
+              <div class="popover-list">
+                
+                <button class="cat-tab level-menu-opt" data-level="A1" role="option" id="tab-A1">
+                  <span class="lvl-tag a1">A1</span>
+                  <div class="lvl-meta">
+                    <span class="lvl-name">Temel Seviye</span>
+                    <span class="lvl-desc">Başlangıç ve temel günlük kelimeler</span>
+                  </div>
+                  <span class="cat-count" id="count-A1">42</span>
+                  <i class="fa-solid fa-check opt-check"></i>
+                </button>
+
+                <button class="cat-tab level-menu-opt" data-level="A2" role="option" id="tab-A2">
+                  <span class="lvl-tag a2">A2</span>
+                  <div class="lvl-meta">
+                    <span class="lvl-name">Başlangıç Seviyesi</span>
+                    <span class="lvl-desc">Temel gramer ve pekiştirme kelimeleri</span>
+                  </div>
+                  <span class="cat-count" id="count-A2">81</span>
+                  <i class="fa-solid fa-check opt-check"></i>
+                </button>
+
+                <button class="cat-tab level-menu-opt" data-level="B1" role="option" id="tab-B1">
+                  <span class="lvl-tag b1">B1</span>
+                  <div class="lvl-meta">
+                    <span class="lvl-name">Orta Seviye</span>
+                    <span class="lvl-desc">YDT ve temel akademik okuma metinleri</span>
+                  </div>
+                  <span class="cat-count" id="count-B1">201</span>
+                  <i class="fa-solid fa-check opt-check"></i>
+                </button>
+
+                <button class="cat-tab level-menu-opt active" data-level="B2" role="option" id="tab-B2">
+                  <span class="lvl-tag b2">B2</span>
+                  <div class="lvl-meta">
+                    <span class="lvl-name">YDS Ana Havuz</span>
+                    <span class="lvl-desc">ÖSYM sınavlarının en kritik ana omurgası</span>
+                  </div>
+                  <span class="cat-count" id="count-B2">558</span>
+                  <i class="fa-solid fa-check opt-check"></i>
+                </button>
+
+                <button class="cat-tab level-menu-opt" data-level="C1" role="option" id="tab-C1">
+                  <span class="lvl-tag c1">C1</span>
+                  <div class="lvl-meta">
+                    <span class="lvl-name">YDS 80+ İleri Seviye</span>
+                    <span class="lvl-desc">Yüksek puan ve akademik makale kelimeleri</span>
+                  </div>
+                  <span class="cat-count" id="count-C1">351</span>
+                  <i class="fa-solid fa-check opt-check"></i>
+                </button>
+
+                <button class="cat-tab level-menu-opt" data-level="C2" role="option" id="tab-C2">
+                  <span class="lvl-tag c2">C2</span>
+                  <div class="lvl-meta">
+                    <span class="lvl-name">Elit Sınav Seviyesi</span>
+                    <span class="lvl-desc">En zorlayıcı ve ayırt edici akademik kelimeler</span>
+                  </div>
+                  <span class="cat-count" id="count-C2">10</span>
+                  <i class="fa-solid fa-check opt-check"></i>
+                </button>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Scope Pills: Tümü ve Yıldızlılarım (Filtreler) -->
+          <div class="quick-scope-pills">
+            <button class="cat-tab scope-pill" data-level="ALL" id="tab-ALL" title="Tüm seviyelerdeki 1.243 kelime">
+              <span>Tümü</span>
+              <span class="cat-count" id="count-ALL">1243</span>
+            </button>
+            <button class="cat-tab scope-pill starred-pill" data-level="STARRED" id="tab-STARRED" title="Yıldızlı favori kelimelerim">
+              <i class="fa-solid fa-star text-amber"></i>
+              <span>Yıldızlılarım</span>
+              <span class="cat-count" id="count-STARRED">0</span>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Right: Segmented Mode Switcher (Kartlar, Kelime Testi, YDS Testi, Sözlük) -->
+        <div class="workspace-right">
+          <div class="segmented-modes" role="tablist">
+            <button class="mode-btn active" id="btnModeCards" role="tab" aria-selected="true" title="3D Kelime Kartları">
+              <i class="fa-solid fa-clone"></i>
+              <span>Kartlar</span>
+              <span class="mode-pill-count" id="cardsCountBadge">558</span>
+            </button>
+            <button class="mode-btn" id="btnModeVocabQuiz" role="tab" aria-selected="false" title="Sadece Kelime & Anlam Testi">
+              <i class="fa-solid fa-spell-check"></i>
+              <span>Kelime Testi</span>
+            </button>
+            <button class="mode-btn" id="btnModeQuiz" role="tab" aria-selected="false" title="5 Şıklı YDS Cümle Testi">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>YDS Cümle Testi</span>
+            </button>
+            <button class="mode-btn" id="btnModeList" role="tab" aria-selected="false" title="Kelime Arama & Sözlük">
+              <i class="fa-solid fa-list-ul"></i>
+              <span>Sözlük</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- VIEW 1: FLASHCARDS (KELİME KARTLARI) -->
+    <section class="view-container active" id="viewCards">
+      <div class="deck-topbar">
+        <div class="deck-info">
+          <span class="deck-level-indicator" id="deckLevelBadge">B2 Seviyesi</span>
+          <span class="deck-counter" id="deckCounter">Kart 1 / 558</span>
+        </div>
+        <div class="deck-progress-bar-bg">
+          <div class="deck-progress-fill" id="deckProgressBar" style="width: 1%;"></div>
+        </div>
+        <div class="deck-actions">
+          <button class="tool-btn" id="btnShuffleCards" title="Kartları Karıştır" aria-label="Karıştır">
+            <i class="fa-solid fa-shuffle"></i> <span>Karıştır</span>
+          </button>
+          <button class="tool-btn" id="btnPronounce" title="Kelimeyi Dinle (Web Speech API)" aria-label="Telaffuz">
+            <i class="fa-solid fa-volume-high"></i> <span>Dinle (S)</span>
+          </button>
+          <button class="tool-btn" id="btnToggleStar" title="Yıldızla / Favorilere Ekle" aria-label="Yıldızla">
+            <i class="fa-regular fa-star" id="starIcon"></i> <span>Favori</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- 3D Flashcard Container -->
+      <div class="flashcard-scene">
+        <div class="flashcard-inner" id="flashcardElement" role="button" tabindex="0" aria-label="Kartı çevirmek için tıklayın">
+          
+          <!-- Card Front -->
+          <div class="card-face card-front">
+            <div class="card-header">
+              <span class="card-type-tag" id="cardTypeTag">Fiil / Verb</span>
+              <span class="card-level-tag" id="cardLevelTag">B2</span>
+            </div>
+
+            <div class="card-body">
+              <h2 class="card-word" id="cardWord">deteriorate</h2>
+              <div class="card-phonetic" id="cardPhonetic">/dɪˈtɪəriəreɪt/</div>
+              
+              <div class="card-audio-cta" id="btnCardAudioTrigger">
+                <i class="fa-solid fa-volume-high"></i> Dinlemek için tıklayın
+              </div>
+
+              <!-- Context sentence preview on front -->
+              <div class="card-sample-box" id="cardFrontSampleBox">
+                <span class="sample-label"><i class="fa-solid fa-quote-left"></i> Akademik Cümle:</span>
+                <p class="sample-sentence" id="cardSampleEn">The patient's renal function will deteriorate rapidly without hemodialysis intervention.</p>
+              </div>
+            </div>
+
+            <div class="card-footer">
+              <span class="hint-text"><i class="fa-solid fa-arrows-rotate"></i> Anlamını görmek için karta veya Boşluk tuşuna basın</span>
+            </div>
+          </div>
+
+          <!-- Card Back -->
+          <div class="card-face card-back">
+            <div class="card-header">
+              <span class="card-level-tag" id="cardBackLevelTag">B2</span>
+              <span class="card-back-badge"><i class="fa-solid fa-language"></i> TÜRKÇE ANLAM</span>
+            </div>
+
+            <div class="card-body">
+              <div class="card-meaning-title" id="cardMeaning">kötüleşmek, bozulmak, gerilemek</div>
+              
+              <div class="card-details-grid">
+                <div class="detail-item" id="cardSynonymsContainer">
+                  <span class="detail-label"><i class="fa-solid fa-equals text-indigo"></i> Eş Anlamlılar (Synonyms):</span>
+                  <div class="tag-cloud" id="cardSynonyms"></div>
+                </div>
+
+                <div class="detail-item" id="cardSentenceTrContainer">
+                  <span class="detail-label"><i class="fa-solid fa-arrow-right-arrow-left text-emerald"></i> Cümle Çevirisi:</span>
+                  <p class="sentence-tr" id="cardSentenceTr"></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-footer">
+              <span class="hint-text"><i class="fa-solid fa-arrows-rotate"></i> Ön yüze dönmek için tıklayın</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Flashcard Bottom Navigation & SRS Controls -->
+      <div class="card-controls-panel">
+        <div class="nav-button-group">
+          <button class="nav-ctrl-btn" id="btnPrevCard" title="Önceki Kelime (Sol Ok)">
+            <i class="fa-solid fa-arrow-left"></i> <span>Önceki</span>
+          </button>
+          
+          <button class="flip-btn-main" id="btnFlipCard" title="Kartı Çevir (Boşluk Tuşu)">
+            <i class="fa-solid fa-arrows-rotate"></i> <span>Kartı Çevir</span>
+          </button>
+
+          <button class="nav-ctrl-btn" id="btnNextCard" title="Sonraki Kelime (Sağ Ok)">
+            <span>Sonraki</span> <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+
+        <!-- Spaced Repetition Marking Buttons -->
+        <div class="srs-actions">
+          <span class="srs-title">Öğrenme Durumunuz:</span>
+          <div class="srs-buttons">
+            <button class="srs-btn srs-hard" id="btnSrsHard" title="Bu kelimede zorlandım">
+              <i class="fa-solid fa-triangle-exclamation"></i> Zorlandım
+            </button>
+            <button class="srs-btn srs-review" id="btnSrsReview" title="Tekrar etmem gerekiyor">
+              <i class="fa-solid fa-clock-rotate-left"></i> Tekrar Et
+            </button>
+            <button class="srs-btn srs-easy" id="btnSrsEasy" title="Bu kelimeyi iyi biliyorum">
+              <i class="fa-solid fa-circle-check"></i> Öğrendim
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 2: YDS & KELİME TESTİ (TEST MOTORU) -->
+    <section class="view-container" id="viewQuiz">
+
+      <!-- Quiz Format Pill Switcher -->
+      <div class="quiz-format-toggle-bar">
+        <button class="format-pill-btn active" id="btnFormatVocab" title="Sadece Kelime & Anlam Eşleştirme Testi">
+          <i class="fa-solid fa-spell-check"></i> <span>Sadece Kelime Testi</span>
+        </button>
+        <button class="format-pill-btn" id="btnFormatYds" title="ÖSYM Akademik Cümle Boşluk Doldurma Testi">
+          <i class="fa-solid fa-graduation-cap"></i> <span>5 Şıklı YDS Cümle Testi</span>
+        </button>
+      </div>
+      
+      <!-- Quiz Header / Setup Bar -->
+      <div class="quiz-topbar">
+        <div class="quiz-meta">
+          <span class="quiz-level-chip" id="quizLevelChip">B2 Sınavı</span>
+          <span class="quiz-q-counter" id="quizQCounter">Soru 1 / 10</span>
+        </div>
+        
+        <div class="quiz-progress-track">
+          <div class="quiz-progress-bar" id="quizProgressBar" style="width: 10%;"></div>
+        </div>
+
+        <div class="quiz-stats-group">
+          <div class="quiz-timer" id="quizTimerBox">
+            <i class="fa-regular fa-clock"></i> <span id="quizTimerText">00:00</span>
+          </div>
+          <div class="quiz-score-pill">
+            <i class="fa-solid fa-check text-emerald"></i> <span id="quizScoreText">0 Doğru</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quiz Question Card -->
+      <div class="quiz-card-wrapper">
+        <div class="quiz-card" id="quizCardElement">
+          
+          <div class="quiz-q-header">
+            <div class="q-badge" id="quizTypeBadge">YDS KELİME SORUSU</div>
+            <div class="q-difficulty" id="quizDifficultyBadge">B2 Seviyesi</div>
+          </div>
+
+          <!-- Question Content -->
+          <div class="quiz-q-content">
+            <div class="quiz-q-prompt" id="quizQuestionPrompt">
+              Aşağıdaki cümlede boş bırakılan yere en uygun kelimeyi seçiniz:
+            </div>
+            
+            <div class="quiz-q-sentence" id="quizQuestionSentence">
+              The company had to <span class="blank-spot">______</span> its expansion plans due to unforeseen budget constraints.
+            </div>
+          </div>
+
+          <!-- 5 Options (A, B, C, D, E - Dynamically Populated) -->
+          <div class="quiz-options-list" id="quizOptionsList"></div>
+
+          <!-- Answer Feedback Box (Initially Hidden) -->
+          <div class="quiz-feedback-box" id="quizFeedbackBox" style="display: none;">
+            <div class="feedback-status" id="feedbackStatus"></div>
+            <div class="feedback-explanation" id="feedbackExplanation"></div>
+          </div>
+
+          <!-- Quiz Navigation Bar (Önceki Soru / Sonraki Soru & Otomatik Geçiş) -->
+          <div class="quiz-nav-bar">
+            <button class="quiz-nav-btn prev" id="btnPrevQuestion" title="Önceki Soru (Sol Ok)">
+              <i class="fa-solid fa-arrow-left"></i> <span>Önceki Soru</span>
+            </button>
+            <div class="quiz-auto-indicator" id="quizAutoIndicator" style="display: none;">
+              <span class="pulse-indicator"></span> <span>Sonraki soruya geçiliyor...</span>
+            </div>
+            <button class="quiz-nav-btn next" id="btnNextQuestion" title="Sonraki Soru (Sağ Ok)">
+              <span id="btnNextQuestionText">Sonraki Soru</span> <i class="fa-solid fa-arrow-right" id="btnNextQuestionIcon"></i>
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Quiz Completion Modal / Screen (Initially Hidden) -->
+      <div class="quiz-results-screen" id="quizResultsScreen" style="display: none;">
+        <div class="results-card">
+          <div class="results-trophy-icon">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <h2 class="results-title">Testi Tamamladınız!</h2>
+          <p class="results-subtitle" id="resultsSubtitle">B2 Seviyesi YDS Kelime Değerlendirmesi</p>
+
+          <div class="results-stats-grid">
+            <div class="res-stat-card">
+              <span class="res-num text-indigo" id="resTotalQ">10</span>
+              <span class="res-lbl">Toplam Soru</span>
+            </div>
+            <div class="res-stat-card">
+              <span class="res-num text-emerald" id="resCorrect">8</span>
+              <span class="res-lbl">Doğru</span>
+            </div>
+            <div class="res-stat-card">
+              <span class="res-num text-rose" id="resWrong">2</span>
+              <span class="res-lbl">Yanlış</span>
+            </div>
+            <div class="res-stat-card">
+              <span class="res-num text-amber" id="resAccuracy">%80</span>
+              <span class="res-lbl">Başarı</span>
+            </div>
+          </div>
+
+          <div class="results-actions">
+            <button class="primary-action-btn" id="btnRestartQuiz">
+              <i class="fa-solid fa-rotate-right"></i> Yeniden Test Çöz
+            </button>
+            <button class="secondary-action-btn" id="btnBackToCards">
+              <i class="fa-solid fa-clone"></i> Kelime Kartlarına Dön
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- VIEW 3: WORD LIST & SEARCH DICTIONARY -->
+    <section class="view-container" id="viewList">
+      <div class="list-controls-bar">
+        <div class="search-input-wrapper">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="wordSearchInput" class="search-input" placeholder="Kelime veya Türkçe anlam ara... (Örn: innovate, felaket, C1...)">
+          <button class="clear-search-btn" id="btnClearSearch" title="Aramayı Temizle" style="display: none;">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+
+        <div class="filter-dropdowns">
+          <select id="filterTypeSelect" class="filter-select" aria-label="Kelime Türü Filtresi">
+            <option value="ALL">Tüm Kelime Türleri</option>
+            <option value="İsim">İsimler (Nouns)</option>
+            <option value="Fiil">Fiiller (Verbs)</option>
+            <option value="Sıfat">Sıfatlar (Adjectives)</option>
+            <option value="Zarf">Zarflar (Adverbs)</option>
+          </select>
+          <span class="filtered-count" id="filteredCountLabel">1.243 kelime listeleniyor</span>
+        </div>
+      </div>
+
+      <!-- Word Table / Grid -->
+      <div class="words-table-wrapper">
+        <table class="words-table" id="wordsTable">
+          <thead>
+            <tr>
+              <th style="width: 50px;">#</th>
+              <th>İngilizce Kelime</th>
+              <th style="width: 80px;">Seviye</th>
+              <th>Türkçe Karşılığı</th>
+              <th>Akademik Örnek Cümle</th>
+              <th style="width: 100px; text-align: center;">İşlem</th>
+            </tr>
+          </thead>
+          <tbody id="wordsTableBody">
+            <!-- Dynamically populated -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Notification Toast -->
+  <div class="toast-notification" id="toastBox">
+    <i class="fa-solid fa-circle-info" id="toastIcon"></i>
+    <span id="toastMessage">Bildirim mesajı</span>
+  </div>
+
+  <!-- Data Script -->
+  <script src="src/js/data.js"></script>
+
+  <!-- Application Modules -->
+  <script src="src/js/state.js"></script>
+  <script src="src/js/speech.js"></script>
+  <script src="src/js/flashcard.js"></script>
+  <script src="src/js/quiz.js"></script>
+  <script src="src/js/app.js"></script>
+</body>
+</html>
